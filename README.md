@@ -20,7 +20,6 @@ Dosyada şu teknik özellikler kullanılmıştır:
 🚀 Çalıştırma Talimatları
 Paketi derledikten sonra tüm sistemi tek komutla başlatabilirsiniz:
 
-```bash
 # Workspace derleme
 colcon build --packages-select simple_bringup
 source install/setup.bash
@@ -28,7 +27,7 @@ source install/setup.bash
 # Launch dosyasını çalıştırma
 ros2 launch simple_bringup television_app.launch.py
 
+
 Aşağıdaki videoda launch dosyamın çalıştırılması sonucu düğümlerin eş zamanlı olarak çalışma şekli gösterilmektedir:
 
-
-
+<video src="https://github.com/user-attachments/assets/b8d5225c-1441-42e3-98df-41975b20a0c8" controls width="100%"></video>
